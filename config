@@ -1,2 +1,5 @@
 Include ~/.ssh/global.config
-#Include ~/.ssh/*.config
+Include ~/.ssh/*[!global].config
+#
+# Don't add configuration here, add them to a user.config file instead.
+#
