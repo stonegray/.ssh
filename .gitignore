@@ -1,0 +1,14 @@
+# reduce risk of accdentally publishing key material:
+
+keys/*
+identities/*
+
+id_*
+**/id_*
+
+
+# don't commit known hosts, even though they should be secure:
+
+known_hosts
+known_hosts.*
+**/known_hosts
