@@ -1,14 +1,11 @@
-# reduce risk of accdentally publishing key material:
-
+# A gitignore with key names is not a replacement for being
+# careful, don't be a dummy and git push your private keys:
 keys/*
 identities/*
-
 id_*
 **/id_*
 
-
 # don't commit known hosts, even though they should be secure:
-
 known_hosts
 known_hosts.*
 **/known_hosts
