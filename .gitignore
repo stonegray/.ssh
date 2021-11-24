@@ -12,3 +12,6 @@ id_*
 known_hosts
 known_hosts.*
 **/known_hosts
+
+*.swo
+*.swp
