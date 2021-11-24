@@ -25,7 +25,7 @@ Extensable configuration template for your ~/.ssh/ directory on macOS and linux.
 
 ## Installation:
 
-```
+```bash
 git clone https://github.com/stonegray/.ssh ~/.ssh
 
 # Move any existing keys into identities folder:
